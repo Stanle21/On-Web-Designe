@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./images/on-running-logo-vector-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>On Running</title>
+
+</head>
+<body id="body-style">
+    <div class="wrapper-on">
+        <div class="on-head-wrapper">
+            <div class="on-head-content">
+                <div class="on-logo">
+                    <img class="onlogo" src="https://www.velosprint.sk/user/documents/on running/on-logo.jpg" alt="logo on">
+                </div>
+                <div class="on-swisslogo-content">
+                    <img class="onswiss" src="https://www.velosprint.sk/user/documents/on running/on-undertextlogo-swissEnegineering.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="section-wrapper">
+            <div class="section-content">
+                <!-- Typeof running selection -->
+                <div class="head-section-wrapper">
+                    <div class="head-section-content" onclick="DisplaySelectedShoes('road')">
+                        <div class="head-section-image">
+                            <img class="poster-image" src="https://www.velosprint.sk/user/documents/on running/on-roadposter-img.jpg" alt="Road poster">
+                        </div>
+                        <div class="scroller"></div>
+                        <div class="head-section-text">
+                            <h1 class="head-sectionof-name">ROAD
+                                <hr style="border: 1px solid white; background-color: white;">
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div class="head-section-content" onclick="DisplaySelectedShoes('allday')">
+                        <div class="head-section-image">
+                            <img class="poster-image" src="https://www.velosprint.sk/user/documents/on running/on-alldayposter.jpg" alt="All day wear poster">
+                        </div>
+                        <div class="scroller"></div>
+                        <div class="head-section-text">
+                            <h1 class="head-sectionof-name">ALL DAY
+                                <hr style="border: 1px solid white; background-color: white;">
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div class="head-section-content" onclick="DisplaySelectedShoes('trail')">
+                        <div class="head-section-image">
+                            <img class="poster-image" src="https://www.velosprint.sk/user/documents/on running/on-trailposter-img.jpg" alt="Trail poster">
+                        </div>
+                        <div class="scroller"></div>
+                        <div class="head-section-text">
+                            <h1 class="head-sectionof-name">TRAIL
+                                <hr style="border: 1px solid white; background-color: white;">
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- Shoes content start -->
+                <div class="on-shoes-wrapper">
+                    <div class="on-shoes-content-allShoes" id="shoes-content"></div>
+                </div>
+                <!-- Shoes content ends -->
+            </div>            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
